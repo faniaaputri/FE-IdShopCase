@@ -22,7 +22,7 @@ export const Navbar = ({ isBlur = false }: NavbarProps) => {
           href="/"
           className="flex items-center space-x-3 rtl:space-x-reverse text-white"
         >
-          <span className="self-center text-2xl font-bold whitespace-nowrap">
+          <span className="self-center text-2xl font-bold whitespace-nowrap ml-3">
             Idshop
           </span>
         </Link>
@@ -57,7 +57,7 @@ export const Navbar = ({ isBlur = false }: NavbarProps) => {
           <Link href={"/account/profile"}>
             <FaUser size={24} color="background" />
           </Link>
-          <div className="relative">
+          <div className="relative mr-4">
             <Link href={"/cart"}>
               <FaCartArrowDown size={24} color="background" />
             </Link>
