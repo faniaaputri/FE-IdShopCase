@@ -1,0 +1,1064 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Cart Page should render 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="h-full w-full flex flex-row py-10"
+      >
+        <div
+          class="h-full w-full flex flex-col gap-2"
+        >
+          <div
+            class="w-full border rounded-sm py-3 px-7 flex flex-row justify-around"
+          >
+            <p
+              class="w-4/12   font-semibold text-foreground/50"
+            >
+              Produk
+            </p>
+            <p
+              class="w-2/12 text-center   font-semibold text-foreground/50"
+            >
+              Harga Satuan
+            </p>
+            <p
+              class="w-2/12 text-center   font-semibold text-foreground/50"
+            >
+              Kuantitas
+            </p>
+            <p
+              class="w-2/12 text-center   font-semibold text-foreground/50"
+            >
+              Total Harga
+            </p>
+            <p
+              class="w-2/12 text-center   font-semibold text-foreground/50"
+            >
+              Aksi
+            </p>
+          </div>
+          <div
+            class="w-full flex flex-col gap-2"
+          >
+            <div
+              class="w-full border rounded-sm py-3 px-7 flex flex-row justify-around"
+            >
+              <div
+                class="w-4/12 flex flex-row items-center gap-2"
+              >
+                <button
+                  aria-checked="false"
+                  class="peer border-input dark:bg-input/30 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground dark:data-[state=checked]:bg-primary data-[state=checked]:border-primary focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive size-4 shrink-0 rounded-[4px] border shadow-xs transition-shadow outline-none focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50"
+                  data-slot="checkbox"
+                  data-state="unchecked"
+                  id="1"
+                  role="checkbox"
+                  type="button"
+                  value="on"
+                />
+                <div
+                  class="w-full flex flex-row gap-2"
+                >
+                  <div
+                    class="w-1/4 h-28 relative"
+                  >
+                    <img
+                      alt="Case iPhone 16 Pro Max Custom"
+                      class="object-cover"
+                      data-nimg="fill"
+                      decoding="async"
+                      loading="lazy"
+                      sizes="100vw"
+                      src="/_next/image?url=%2Fimages%2Fproduct-2.jpeg&w=3840&q=75"
+                      srcset="/_next/image?url=%2Fimages%2Fproduct-2.jpeg&w=640&q=75 640w, /_next/image?url=%2Fimages%2Fproduct-2.jpeg&w=750&q=75 750w, /_next/image?url=%2Fimages%2Fproduct-2.jpeg&w=828&q=75 828w, /_next/image?url=%2Fimages%2Fproduct-2.jpeg&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Fproduct-2.jpeg&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Fproduct-2.jpeg&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Fproduct-2.jpeg&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Fproduct-2.jpeg&w=3840&q=75 3840w"
+                      style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+                    />
+                  </div>
+                  <div
+                    class="flex-1 flex flex-col gap-1"
+                  >
+                    <a
+                      class="text-app-semibold-xl"
+                      href="#"
+                    >
+                      Case iPhone 16 Pro Max Custom
+                    </a>
+                    <p
+                      class="text-sm font-light text-foreground/60"
+                    >
+                      Diamond Impact
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <p
+                class="w-2/12 self-center text-center text-app-semibold-lg"
+              >
+                Rp. 
+                120000
+              </p>
+              <div
+                class="w-2/12 flex-row-center  px-10"
+              >
+                <div
+                  class="grid grid-cols-4"
+                >
+                  <button
+                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[>svg]:px-3 col-span-1 text-foreground rounded-none"
+                    data-slot="button"
+                  >
+                    <svg
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 512 512"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M96 235h320v42H96z"
+                      />
+                    </svg>
+                  </button>
+                  <div
+                    class="col-span-2 border flex-row-center "
+                  >
+                    <p>
+                      1
+                    </p>
+                  </div>
+                  <button
+                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[>svg]:px-3 col-span-1 text-foreground rounded-none"
+                    data-slot="button"
+                  >
+                    <svg
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 512 512"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <p
+                class="w-2/12 self-center text-center text-app-semibold-lg"
+              >
+                Rp. 
+                120000
+              </p>
+              <div
+                class="w-2/12 flex-row-center"
+              >
+                <svg
+                  class="hover:cursor-pointer"
+                  color="red"
+                  fill="currentColor"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  style="color: red;"
+                  viewBox="0 0 448 512"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16zM53.2 467a48 48 0 0 0 47.9 45h245.8a48 48 0 0 0 47.9-45L416 128H32z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div
+              class="w-full border rounded-sm py-3 px-7 flex flex-row justify-around"
+            >
+              <div
+                class="w-4/12 flex flex-row items-center gap-2"
+              >
+                <button
+                  aria-checked="false"
+                  class="peer border-input dark:bg-input/30 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground dark:data-[state=checked]:bg-primary data-[state=checked]:border-primary focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive size-4 shrink-0 rounded-[4px] border shadow-xs transition-shadow outline-none focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50"
+                  data-slot="checkbox"
+                  data-state="unchecked"
+                  id="2"
+                  role="checkbox"
+                  type="button"
+                  value="on"
+                />
+                <div
+                  class="w-full flex flex-row gap-2"
+                >
+                  <div
+                    class="w-1/4 h-28 relative"
+                  >
+                    <img
+                      alt="Case iPhone 15 Matte Black"
+                      class="object-cover"
+                      data-nimg="fill"
+                      decoding="async"
+                      loading="lazy"
+                      sizes="100vw"
+                      src="/_next/image?url=%2Fimages%2Fproduct-3.jpeg&w=3840&q=75"
+                      srcset="/_next/image?url=%2Fimages%2Fproduct-3.jpeg&w=640&q=75 640w, /_next/image?url=%2Fimages%2Fproduct-3.jpeg&w=750&q=75 750w, /_next/image?url=%2Fimages%2Fproduct-3.jpeg&w=828&q=75 828w, /_next/image?url=%2Fimages%2Fproduct-3.jpeg&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Fproduct-3.jpeg&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Fproduct-3.jpeg&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Fproduct-3.jpeg&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Fproduct-3.jpeg&w=3840&q=75 3840w"
+                      style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+                    />
+                  </div>
+                  <div
+                    class="flex-1 flex flex-col gap-1"
+                  >
+                    <a
+                      class="text-app-semibold-xl"
+                      href="#"
+                    >
+                      Case iPhone 15 Matte Black
+                    </a>
+                    <p
+                      class="text-sm font-light text-foreground/60"
+                    >
+                      Soft Touch TPU
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <p
+                class="w-2/12 self-center text-center text-app-semibold-lg"
+              >
+                Rp. 
+                95000
+              </p>
+              <div
+                class="w-2/12 flex-row-center  px-10"
+              >
+                <div
+                  class="grid grid-cols-4"
+                >
+                  <button
+                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[>svg]:px-3 col-span-1 text-foreground rounded-none"
+                    data-slot="button"
+                  >
+                    <svg
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 512 512"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M96 235h320v42H96z"
+                      />
+                    </svg>
+                  </button>
+                  <div
+                    class="col-span-2 border flex-row-center "
+                  >
+                    <p>
+                      1
+                    </p>
+                  </div>
+                  <button
+                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[>svg]:px-3 col-span-1 text-foreground rounded-none"
+                    data-slot="button"
+                  >
+                    <svg
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 512 512"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <p
+                class="w-2/12 self-center text-center text-app-semibold-lg"
+              >
+                Rp. 
+                190000
+              </p>
+              <div
+                class="w-2/12 flex-row-center"
+              >
+                <svg
+                  class="hover:cursor-pointer"
+                  color="red"
+                  fill="currentColor"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  style="color: red;"
+                  viewBox="0 0 448 512"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16zM53.2 467a48 48 0 0 0 47.9 45h245.8a48 48 0 0 0 47.9-45L416 128H32z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div
+              class="w-full border rounded-sm py-3 px-7 flex flex-row justify-around"
+            >
+              <div
+                class="w-4/12 flex flex-row items-center gap-2"
+              >
+                <button
+                  aria-checked="false"
+                  class="peer border-input dark:bg-input/30 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground dark:data-[state=checked]:bg-primary data-[state=checked]:border-primary focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive size-4 shrink-0 rounded-[4px] border shadow-xs transition-shadow outline-none focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50"
+                  data-slot="checkbox"
+                  data-state="unchecked"
+                  id="3"
+                  role="checkbox"
+                  type="button"
+                  value="on"
+                />
+                <div
+                  class="w-full flex flex-row gap-2"
+                >
+                  <div
+                    class="w-1/4 h-28 relative"
+                  >
+                    <img
+                      alt="Case iPhone 14 Floral Edition"
+                      class="object-cover"
+                      data-nimg="fill"
+                      decoding="async"
+                      loading="lazy"
+                      sizes="100vw"
+                      src="/_next/image?url=%2Fimages%2Fproduct-1.jpeg&w=3840&q=75"
+                      srcset="/_next/image?url=%2Fimages%2Fproduct-1.jpeg&w=640&q=75 640w, /_next/image?url=%2Fimages%2Fproduct-1.jpeg&w=750&q=75 750w, /_next/image?url=%2Fimages%2Fproduct-1.jpeg&w=828&q=75 828w, /_next/image?url=%2Fimages%2Fproduct-1.jpeg&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Fproduct-1.jpeg&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Fproduct-1.jpeg&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Fproduct-1.jpeg&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Fproduct-1.jpeg&w=3840&q=75 3840w"
+                      style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+                    />
+                  </div>
+                  <div
+                    class="flex-1 flex flex-col gap-1"
+                  >
+                    <a
+                      class="text-app-semibold-xl"
+                      href="#"
+                    >
+                      Case iPhone 14 Floral Edition
+                    </a>
+                    <p
+                      class="text-sm font-light text-foreground/60"
+                    >
+                      Clear Silicone
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <p
+                class="w-2/12 self-center text-center text-app-semibold-lg"
+              >
+                Rp. 
+                110000
+              </p>
+              <div
+                class="w-2/12 flex-row-center  px-10"
+              >
+                <div
+                  class="grid grid-cols-4"
+                >
+                  <button
+                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[>svg]:px-3 col-span-1 text-foreground rounded-none"
+                    data-slot="button"
+                  >
+                    <svg
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 512 512"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M96 235h320v42H96z"
+                      />
+                    </svg>
+                  </button>
+                  <div
+                    class="col-span-2 border flex-row-center "
+                  >
+                    <p>
+                      1
+                    </p>
+                  </div>
+                  <button
+                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[>svg]:px-3 col-span-1 text-foreground rounded-none"
+                    data-slot="button"
+                  >
+                    <svg
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 512 512"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <p
+                class="w-2/12 self-center text-center text-app-semibold-lg"
+              >
+                Rp. 
+                110000
+              </p>
+              <div
+                class="w-2/12 flex-row-center"
+              >
+                <svg
+                  class="hover:cursor-pointer"
+                  color="red"
+                  fill="currentColor"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  style="color: red;"
+                  viewBox="0 0 448 512"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16zM53.2 467a48 48 0 0 0 47.9 45h245.8a48 48 0 0 0 47.9-45L416 128H32z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div
+            class="fixed z-20 bottom-0 w-[93%] px-5 py-10 bg-secondary-foreground/75 rounded-t-[12px]"
+          >
+            <div
+              class="flex flex-row justify-between items-center"
+            >
+              <div>
+                <div
+                  class="group/field flex w-full gap-3 data-[invalid=true]:text-destructive flex-row items-center justify-between [&>[data-slot=field-label]]:flex-auto has-[>[data-slot=field-content]]:items-start has-[>[data-slot=field-content]]:[&>[role=checkbox],[role=radio]]:mt-px"
+                  data-orientation="horizontal"
+                  data-slot="field"
+                  role="group"
+                >
+                  <button
+                    aria-checked="false"
+                    class="peer border-input dark:bg-input/30 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground dark:data-[state=checked]:bg-primary data-[state=checked]:border-primary focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive size-4 shrink-0 border shadow-xs transition-shadow outline-none focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50 rounded-none bg-background"
+                    data-slot="field-content"
+                    data-state="unchecked"
+                    id="selectedAll"
+                    role="checkbox"
+                    type="button"
+                    value="on"
+                  />
+                  <label
+                    class="items-center text-sm font-medium select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 mb-1 peer-disabled:cursor-not-allowed peer-disabled:opacity-50 group/field-label peer/field-label flex w-fit gap-2 leading-snug group-data-[disabled=true]/field:opacity-50 has-[>[data-slot=field]]:w-full has-[>[data-slot=field]]:flex-col has-[>[data-slot=field]]:rounded-sm has-[>[data-slot=field]]:border [&>*]:data-[slot=field]:p-4 has-data-[state=checked]:bg-primary/5 has-data-[state=checked]:border-foreground dark:has-data-[state=checked]:bg-primary/10 text-background"
+                    data-slot="field-label"
+                    for="selectedAll"
+                  >
+                    Pilih Semua (3)
+                  </label>
+                </div>
+              </div>
+              <div
+                class="flex-row-center gap-4 "
+              >
+                <p
+                  class="text-app-semibold-sm text-background"
+                >
+                  Total (0 Produk)
+                </p>
+                <p
+                  class="text-app-semibold-lg text-background"
+                >
+                  Rp. 0
+                </p>
+                <button
+                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive hover:bg-primary/90 h-9 py-2 has-[>svg]:px-3 bg-card text-foreground font-semibold px-10 hover:text-background"
+                  data-slot="button"
+                >
+                  Checkout
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="h-full w-full flex flex-row py-10"
+    >
+      <div
+        class="h-full w-full flex flex-col gap-2"
+      >
+        <div
+          class="w-full border rounded-sm py-3 px-7 flex flex-row justify-around"
+        >
+          <p
+            class="w-4/12   font-semibold text-foreground/50"
+          >
+            Produk
+          </p>
+          <p
+            class="w-2/12 text-center   font-semibold text-foreground/50"
+          >
+            Harga Satuan
+          </p>
+          <p
+            class="w-2/12 text-center   font-semibold text-foreground/50"
+          >
+            Kuantitas
+          </p>
+          <p
+            class="w-2/12 text-center   font-semibold text-foreground/50"
+          >
+            Total Harga
+          </p>
+          <p
+            class="w-2/12 text-center   font-semibold text-foreground/50"
+          >
+            Aksi
+          </p>
+        </div>
+        <div
+          class="w-full flex flex-col gap-2"
+        >
+          <div
+            class="w-full border rounded-sm py-3 px-7 flex flex-row justify-around"
+          >
+            <div
+              class="w-4/12 flex flex-row items-center gap-2"
+            >
+              <button
+                aria-checked="false"
+                class="peer border-input dark:bg-input/30 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground dark:data-[state=checked]:bg-primary data-[state=checked]:border-primary focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive size-4 shrink-0 rounded-[4px] border shadow-xs transition-shadow outline-none focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50"
+                data-slot="checkbox"
+                data-state="unchecked"
+                id="1"
+                role="checkbox"
+                type="button"
+                value="on"
+              />
+              <div
+                class="w-full flex flex-row gap-2"
+              >
+                <div
+                  class="w-1/4 h-28 relative"
+                >
+                  <img
+                    alt="Case iPhone 16 Pro Max Custom"
+                    class="object-cover"
+                    data-nimg="fill"
+                    decoding="async"
+                    loading="lazy"
+                    sizes="100vw"
+                    src="/_next/image?url=%2Fimages%2Fproduct-2.jpeg&w=3840&q=75"
+                    srcset="/_next/image?url=%2Fimages%2Fproduct-2.jpeg&w=640&q=75 640w, /_next/image?url=%2Fimages%2Fproduct-2.jpeg&w=750&q=75 750w, /_next/image?url=%2Fimages%2Fproduct-2.jpeg&w=828&q=75 828w, /_next/image?url=%2Fimages%2Fproduct-2.jpeg&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Fproduct-2.jpeg&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Fproduct-2.jpeg&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Fproduct-2.jpeg&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Fproduct-2.jpeg&w=3840&q=75 3840w"
+                    style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+                  />
+                </div>
+                <div
+                  class="flex-1 flex flex-col gap-1"
+                >
+                  <a
+                    class="text-app-semibold-xl"
+                    href="#"
+                  >
+                    Case iPhone 16 Pro Max Custom
+                  </a>
+                  <p
+                    class="text-sm font-light text-foreground/60"
+                  >
+                    Diamond Impact
+                  </p>
+                </div>
+              </div>
+            </div>
+            <p
+              class="w-2/12 self-center text-center text-app-semibold-lg"
+            >
+              Rp. 
+              120000
+            </p>
+            <div
+              class="w-2/12 flex-row-center  px-10"
+            >
+              <div
+                class="grid grid-cols-4"
+              >
+                <button
+                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[>svg]:px-3 col-span-1 text-foreground rounded-none"
+                  data-slot="button"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 512 512"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M96 235h320v42H96z"
+                    />
+                  </svg>
+                </button>
+                <div
+                  class="col-span-2 border flex-row-center "
+                >
+                  <p>
+                    1
+                  </p>
+                </div>
+                <button
+                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[>svg]:px-3 col-span-1 text-foreground rounded-none"
+                  data-slot="button"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 512 512"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <p
+              class="w-2/12 self-center text-center text-app-semibold-lg"
+            >
+              Rp. 
+              120000
+            </p>
+            <div
+              class="w-2/12 flex-row-center"
+            >
+              <svg
+                class="hover:cursor-pointer"
+                color="red"
+                fill="currentColor"
+                height="24"
+                stroke="currentColor"
+                stroke-width="0"
+                style="color: red;"
+                viewBox="0 0 448 512"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16zM53.2 467a48 48 0 0 0 47.9 45h245.8a48 48 0 0 0 47.9-45L416 128H32z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            class="w-full border rounded-sm py-3 px-7 flex flex-row justify-around"
+          >
+            <div
+              class="w-4/12 flex flex-row items-center gap-2"
+            >
+              <button
+                aria-checked="false"
+                class="peer border-input dark:bg-input/30 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground dark:data-[state=checked]:bg-primary data-[state=checked]:border-primary focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive size-4 shrink-0 rounded-[4px] border shadow-xs transition-shadow outline-none focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50"
+                data-slot="checkbox"
+                data-state="unchecked"
+                id="2"
+                role="checkbox"
+                type="button"
+                value="on"
+              />
+              <div
+                class="w-full flex flex-row gap-2"
+              >
+                <div
+                  class="w-1/4 h-28 relative"
+                >
+                  <img
+                    alt="Case iPhone 15 Matte Black"
+                    class="object-cover"
+                    data-nimg="fill"
+                    decoding="async"
+                    loading="lazy"
+                    sizes="100vw"
+                    src="/_next/image?url=%2Fimages%2Fproduct-3.jpeg&w=3840&q=75"
+                    srcset="/_next/image?url=%2Fimages%2Fproduct-3.jpeg&w=640&q=75 640w, /_next/image?url=%2Fimages%2Fproduct-3.jpeg&w=750&q=75 750w, /_next/image?url=%2Fimages%2Fproduct-3.jpeg&w=828&q=75 828w, /_next/image?url=%2Fimages%2Fproduct-3.jpeg&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Fproduct-3.jpeg&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Fproduct-3.jpeg&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Fproduct-3.jpeg&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Fproduct-3.jpeg&w=3840&q=75 3840w"
+                    style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+                  />
+                </div>
+                <div
+                  class="flex-1 flex flex-col gap-1"
+                >
+                  <a
+                    class="text-app-semibold-xl"
+                    href="#"
+                  >
+                    Case iPhone 15 Matte Black
+                  </a>
+                  <p
+                    class="text-sm font-light text-foreground/60"
+                  >
+                    Soft Touch TPU
+                  </p>
+                </div>
+              </div>
+            </div>
+            <p
+              class="w-2/12 self-center text-center text-app-semibold-lg"
+            >
+              Rp. 
+              95000
+            </p>
+            <div
+              class="w-2/12 flex-row-center  px-10"
+            >
+              <div
+                class="grid grid-cols-4"
+              >
+                <button
+                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[>svg]:px-3 col-span-1 text-foreground rounded-none"
+                  data-slot="button"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 512 512"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M96 235h320v42H96z"
+                    />
+                  </svg>
+                </button>
+                <div
+                  class="col-span-2 border flex-row-center "
+                >
+                  <p>
+                    1
+                  </p>
+                </div>
+                <button
+                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[>svg]:px-3 col-span-1 text-foreground rounded-none"
+                  data-slot="button"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 512 512"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <p
+              class="w-2/12 self-center text-center text-app-semibold-lg"
+            >
+              Rp. 
+              190000
+            </p>
+            <div
+              class="w-2/12 flex-row-center"
+            >
+              <svg
+                class="hover:cursor-pointer"
+                color="red"
+                fill="currentColor"
+                height="24"
+                stroke="currentColor"
+                stroke-width="0"
+                style="color: red;"
+                viewBox="0 0 448 512"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16zM53.2 467a48 48 0 0 0 47.9 45h245.8a48 48 0 0 0 47.9-45L416 128H32z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            class="w-full border rounded-sm py-3 px-7 flex flex-row justify-around"
+          >
+            <div
+              class="w-4/12 flex flex-row items-center gap-2"
+            >
+              <button
+                aria-checked="false"
+                class="peer border-input dark:bg-input/30 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground dark:data-[state=checked]:bg-primary data-[state=checked]:border-primary focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive size-4 shrink-0 rounded-[4px] border shadow-xs transition-shadow outline-none focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50"
+                data-slot="checkbox"
+                data-state="unchecked"
+                id="3"
+                role="checkbox"
+                type="button"
+                value="on"
+              />
+              <div
+                class="w-full flex flex-row gap-2"
+              >
+                <div
+                  class="w-1/4 h-28 relative"
+                >
+                  <img
+                    alt="Case iPhone 14 Floral Edition"
+                    class="object-cover"
+                    data-nimg="fill"
+                    decoding="async"
+                    loading="lazy"
+                    sizes="100vw"
+                    src="/_next/image?url=%2Fimages%2Fproduct-1.jpeg&w=3840&q=75"
+                    srcset="/_next/image?url=%2Fimages%2Fproduct-1.jpeg&w=640&q=75 640w, /_next/image?url=%2Fimages%2Fproduct-1.jpeg&w=750&q=75 750w, /_next/image?url=%2Fimages%2Fproduct-1.jpeg&w=828&q=75 828w, /_next/image?url=%2Fimages%2Fproduct-1.jpeg&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Fproduct-1.jpeg&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Fproduct-1.jpeg&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Fproduct-1.jpeg&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Fproduct-1.jpeg&w=3840&q=75 3840w"
+                    style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+                  />
+                </div>
+                <div
+                  class="flex-1 flex flex-col gap-1"
+                >
+                  <a
+                    class="text-app-semibold-xl"
+                    href="#"
+                  >
+                    Case iPhone 14 Floral Edition
+                  </a>
+                  <p
+                    class="text-sm font-light text-foreground/60"
+                  >
+                    Clear Silicone
+                  </p>
+                </div>
+              </div>
+            </div>
+            <p
+              class="w-2/12 self-center text-center text-app-semibold-lg"
+            >
+              Rp. 
+              110000
+            </p>
+            <div
+              class="w-2/12 flex-row-center  px-10"
+            >
+              <div
+                class="grid grid-cols-4"
+              >
+                <button
+                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[>svg]:px-3 col-span-1 text-foreground rounded-none"
+                  data-slot="button"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 512 512"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M96 235h320v42H96z"
+                    />
+                  </svg>
+                </button>
+                <div
+                  class="col-span-2 border flex-row-center "
+                >
+                  <p>
+                    1
+                  </p>
+                </div>
+                <button
+                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[>svg]:px-3 col-span-1 text-foreground rounded-none"
+                  data-slot="button"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 512 512"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <p
+              class="w-2/12 self-center text-center text-app-semibold-lg"
+            >
+              Rp. 
+              110000
+            </p>
+            <div
+              class="w-2/12 flex-row-center"
+            >
+              <svg
+                class="hover:cursor-pointer"
+                color="red"
+                fill="currentColor"
+                height="24"
+                stroke="currentColor"
+                stroke-width="0"
+                style="color: red;"
+                viewBox="0 0 448 512"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16zM53.2 467a48 48 0 0 0 47.9 45h245.8a48 48 0 0 0 47.9-45L416 128H32z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div
+          class="fixed z-20 bottom-0 w-[93%] px-5 py-10 bg-secondary-foreground/75 rounded-t-[12px]"
+        >
+          <div
+            class="flex flex-row justify-between items-center"
+          >
+            <div>
+              <div
+                class="group/field flex w-full gap-3 data-[invalid=true]:text-destructive flex-row items-center justify-between [&>[data-slot=field-label]]:flex-auto has-[>[data-slot=field-content]]:items-start has-[>[data-slot=field-content]]:[&>[role=checkbox],[role=radio]]:mt-px"
+                data-orientation="horizontal"
+                data-slot="field"
+                role="group"
+              >
+                <button
+                  aria-checked="false"
+                  class="peer border-input dark:bg-input/30 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground dark:data-[state=checked]:bg-primary data-[state=checked]:border-primary focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive size-4 shrink-0 border shadow-xs transition-shadow outline-none focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50 rounded-none bg-background"
+                  data-slot="field-content"
+                  data-state="unchecked"
+                  id="selectedAll"
+                  role="checkbox"
+                  type="button"
+                  value="on"
+                />
+                <label
+                  class="items-center text-sm font-medium select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 mb-1 peer-disabled:cursor-not-allowed peer-disabled:opacity-50 group/field-label peer/field-label flex w-fit gap-2 leading-snug group-data-[disabled=true]/field:opacity-50 has-[>[data-slot=field]]:w-full has-[>[data-slot=field]]:flex-col has-[>[data-slot=field]]:rounded-sm has-[>[data-slot=field]]:border [&>*]:data-[slot=field]:p-4 has-data-[state=checked]:bg-primary/5 has-data-[state=checked]:border-foreground dark:has-data-[state=checked]:bg-primary/10 text-background"
+                  data-slot="field-label"
+                  for="selectedAll"
+                >
+                  Pilih Semua (3)
+                </label>
+              </div>
+            </div>
+            <div
+              class="flex-row-center gap-4 "
+            >
+              <p
+                class="text-app-semibold-sm text-background"
+              >
+                Total (0 Produk)
+              </p>
+              <p
+                class="text-app-semibold-lg text-background"
+              >
+                Rp. 0
+              </p>
+              <button
+                class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive hover:bg-primary/90 h-9 py-2 has-[>svg]:px-3 bg-card text-foreground font-semibold px-10 hover:text-background"
+                data-slot="button"
+              >
+                Checkout
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
