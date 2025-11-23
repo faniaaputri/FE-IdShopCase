@@ -4,22 +4,23 @@ import { useGetRegencies } from "../api/get-regencies";
 import { DropdownSelector } from "./dropdown-selector";
 
 type RegencieSelectorProps = {
-  codeProvince: string;
+  province: string;
   value?: string;
   onValueChange: (value: string) => void;
 };
 
 export const RegencieSelector = (props: RegencieSelectorProps) => {
-  const { codeProvince, value, onValueChange } = props;
+  const { province, value, onValueChange } = props;
   const [isOpen, setIsOpen] = useState<boolean>(false);
+  const [selectedRegency, setSelectedRegency] = useState<string>("");
   const {
     data: regencies,
     isLoading: fetchRegenciesLoading,
     isError: fetchRegenciesError,
   } = useGetRegencies({
-    codeProvince,
+    province,
     queryConfig: {
-      enabled: isOpen && !!codeProvince,
+      enabled: isOpen && !!province,
     },
   });
   return (
@@ -29,7 +30,7 @@ export const RegencieSelector = (props: RegencieSelectorProps) => {
       isLoading={fetchRegenciesLoading}
       isError={fetchRegenciesError}
       value={value || ""}
-      disabled={!codeProvince}
+      disabled={!province}
       fieldImportant="Provinsi"
       onValueChange={onValueChange}
       onOpenChange={setIsOpen}
