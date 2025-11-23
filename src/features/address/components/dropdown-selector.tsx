@@ -10,9 +10,9 @@ import {
 } from "@/components/ui/select";
 import { Spinner } from "@/components/ui/spinner";
 
-type DropdownSelectorProps<T> = {
+type DropdownSelectorProps = {
   placeholder: string;
-  data: T[];
+  data: string[];
   isLoading: boolean;
   isError: boolean;
   value: string;
@@ -22,7 +22,7 @@ type DropdownSelectorProps<T> = {
   onOpenChange: (open: boolean) => void;
 };
 
-export const DropdownSelector = <T extends { id: string; name: string }>({
+export const DropdownSelector = ({
   placeholder,
   data,
   isLoading,
@@ -32,13 +32,13 @@ export const DropdownSelector = <T extends { id: string; name: string }>({
   fieldImportant,
   onValueChange,
   onOpenChange,
-}: DropdownSelectorProps<T>) => {
+}: DropdownSelectorProps) => {
   return (
     <Field>
       <Select
-        onOpenChange={(open) => onOpenChange(open)}
         value={value}
         onValueChange={onValueChange}
+        onOpenChange={onOpenChange}
       >
         <SelectTrigger>
           <SelectValue placeholder={placeholder} />
@@ -60,13 +60,11 @@ export const DropdownSelector = <T extends { id: string; name: string }>({
                 <p className="text-sm text-foreground/30">Terjadi kesalahan</p>
               </div>
             ) : (
-              data?.map((item) => {
-                return (
-                  <SelectItem key={item.id} value={item.id}>
-                    {item.name}
-                  </SelectItem>
-                );
-              })
+              data?.map((item) => (
+                <SelectItem key={item} value={item}>
+                  {item}
+                </SelectItem>
+              ))
             )}
           </SelectGroup>
         </SelectContent>

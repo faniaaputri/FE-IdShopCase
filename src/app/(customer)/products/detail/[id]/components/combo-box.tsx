@@ -18,20 +18,16 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/components/ui/popover";
+import { Control } from "react-hook-form";
 
-const frameworks = [
-  {
-    value: "iphone",
-    label: "Iphone",
-  },
-  {
-    value: "samsung",
-    label: "Samsung",
-  },
-];
-
-export function Combobox() {
-  const [value, setValue] = React.useState("");
+type ComboboxProps = {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  field: any;
+  data: Array<{ value: string; label: string }>;
+  className?: string;
+};
+export function Combobox(props: ComboboxProps) {
+  const { field, data, className } = props;
   const [open, setOpen] = React.useState(false);
 
   return (
@@ -41,10 +37,13 @@ export function Combobox() {
           variant="outline"
           role="combobox"
           aria-expanded={open}
-          className="w-[200px] justify-between text-foreground rounded-tl-md rounded-tr-md rounded-br-none rounded-bl-none border-foreground mb-5"
+          className={cn(
+            "w-[200px] justify-between text-foreground rounded-sm border-foreground mb-4",
+            className
+          )}
         >
-          {value
-            ? frameworks.find((framework) => framework.value === value)?.label
+          {field.value
+            ? data.find((d) => d.value === field.value)?.label
             : "Select Handphone..."}
           <ChevronsUpDown className="opacity-50" />
         </Button>
@@ -53,22 +52,22 @@ export function Combobox() {
         <Command>
           <CommandInput placeholder="Search handphone..." className="h-9" />
           <CommandList>
-            <CommandEmpty>No framework found.</CommandEmpty>
+            <CommandEmpty>No data found.</CommandEmpty>
             <CommandGroup>
-              {frameworks.map((framework) => (
+              {data.map((d) => (
                 <CommandItem
-                  key={framework.value}
-                  value={framework.value}
-                  onSelect={(currentValue) => {
-                    setValue(currentValue === value ? "" : currentValue);
+                  key={d.value}
+                  value={d.value}
+                  onSelect={() => {
+                    field.onChange(d.value);
                     setOpen(false);
                   }}
                 >
-                  {framework.label}
+                  {d.label}
                   <Check
                     className={cn(
                       "ml-auto",
-                      value === framework.value ? "opacity-100" : "opacity-0"
+                      field.value === d.value ? "opacity-100" : "opacity-0"
                     )}
                   />
                 </CommandItem>

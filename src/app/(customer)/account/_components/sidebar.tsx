@@ -2,6 +2,9 @@
 import { Button } from "@/components/ui/button";
 import { SidebarLink } from "./sidebar-link";
 import { usePathname } from "next/navigation";
+import { Separator } from "@/components/ui/separator";
+import { NavMainAccount } from "./nav-main-account";
+import { IoLogOut } from "react-icons/io5";
 
 const sidebarLink: { label: string; path: string }[] = [
   {
@@ -13,20 +16,22 @@ const sidebarLink: { label: string; path: string }[] = [
     path: "/account/orders",
   },
   {
-    label: "Metode Pembayaran",
-    path: "/account/payments",
-  },
-  {
     label: "Alamat",
     path: "/account/address",
+  },
+  {
+    label: "Ubah Password",
+    path: "/account/update-password",
   },
 ];
 
 export const Sidebar = () => {
   const pathName = usePathname();
   return (
-    <nav className="h-5/6 w-5/6 flex flex-col justify-between">
-      <ul className="flex flex-col gap-4 ">
+    <nav className="h-full w-full flex flex-col bg-transparent  ">
+      <NavMainAccount></NavMainAccount>
+      <Separator></Separator>
+      <ul className="flex flex-col gap- p-5">
         {sidebarLink.map((link) => {
           const isActive =
             pathName === link.path || pathName.startsWith(`${link.path}/`);
@@ -37,17 +42,16 @@ export const Sidebar = () => {
           );
         })}
       </ul>
-
-      {pathName === "/account/profile" && (
-        <div>
-          <Button
-            className="w-auto px-8 py-1 font-bold text-xl bg-destructive/80"
-            variant="destructive"
-          >
-            Keluar
-          </Button>
-        </div>
-      )}
+      <Separator></Separator>
+      <div className="p-5">
+        <Button
+          className="w-full px-8 py-1 font-bold text-md bg-destructive/80"
+          variant="destructive"
+        >
+          <IoLogOut size={32} />
+          Keluar
+        </Button>
+      </div>
     </nav>
   );
 };
